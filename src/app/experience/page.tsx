@@ -31,6 +31,16 @@ export default function Experience() {
       technologies: ["FastAPI", "Gemini API", "Google Cloud", "SQLite", "RAG"]
     },
     {
+      title: "Student Growth Ambassador",
+      company: "Claim",
+      duration: "08/2024 – 12/2024",
+      description: [
+        "Introduced app features to students at UMich",
+        "Represented Claim at events, distributing promotional materials to boost onboarding",
+        "Partnered with student orgs to establish fundraising collaborations"
+      ]
+    },
+    {
       title: "Student Producer",
       company: "Troy School District",
       duration: "11/2021 – 07/2023",
@@ -41,16 +51,6 @@ export default function Experience() {
         "Managed live theatre event audio engineering and video streaming"
       ],
       technologies: ["Video Production", "Audio Engineering", "Photography"]
-    },
-    {
-      title: "Student Growth Ambassador",
-      company: "Claim",
-      duration: "08/2024 – 12/2024",
-      description: [
-        "Introduced app features to students at UMich",
-        "Represented Claim at events, distributing promotional materials to boost onboarding",
-        "Partnered with student orgs to establish fundraising collaborations"
-      ]
     }
   ];
 

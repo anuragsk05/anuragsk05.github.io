@@ -13,7 +13,7 @@ export default function Home() {
               Welcome to My Portfolio
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Explore my work experience, projects, and learn more about my journey in software engineering.
+              Explore my work experience, projects, and learn more about my journey in software engineering, AI, music, and media.
             </p>
           </div>
         </div>
