@@ -9,7 +9,11 @@ export const metadata: Metadata = {
   title: 'Anurag Komaragiri',
   description: 'Software Engineer • Musician • Creator',
   icons: {
-    icon: '/favicon-32x32.png',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: { url: '/favicon-32x32.png' },
   },
 };
 
@@ -20,6 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon-32x32.png" />
+        <link rel="apple-touch-icon" href="/favicon-32x32.png" />
+      </head>
       <body className={spaceGrotesk.className}>
         <Navbar />
         {children}
