@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi';
+import { FiMail, FiCheck } from 'react-icons/fi';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -19,6 +19,14 @@ const navigation = [
 export default function Navbar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const [showCopied, setShowCopied] = useState(false);
+
+  const handleCopyEmail = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigator.clipboard.writeText('anurag.s.kom@gmail.com');
+    setShowCopied(true);
+    setTimeout(() => setShowCopied(false), 2000);
+  };
 
   return (
     <nav className="fixed w-full z-50 bg-dark/80 backdrop-blur-sm">
@@ -59,12 +67,19 @@ export default function Navbar() {
             >
               <FaGithub className="h-5 w-5" />
             </a>
-            <a
-              href="mailto:anurag.s.kom@gmail.com"
-              className="text-gray-300 hover:text-accent-blue transition-colors"
+            <button
+              onClick={handleCopyEmail}
+              className="relative group text-gray-300 hover:text-accent-blue transition-colors focus:outline-none"
             >
-              <FiMail className="h-5 w-5" />
-            </a>
+              {showCopied ? (
+                <FiCheck className="h-5 w-5 text-green-500" />
+              ) : (
+                <FiMail className="h-5 w-5" />
+              )}
+              <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                {showCopied ? 'Copied!' : 'Click to copy email'}
+              </span>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -156,12 +171,16 @@ export default function Navbar() {
             >
               <FaGithub className="h-6 w-6" />
             </a>
-            <a
-              href="mailto:anurag.s.kom@gmail.com"
-              className="text-gray-300 hover:text-accent-blue transition-colors"
+            <button
+              onClick={handleCopyEmail}
+              className="text-gray-300 hover:text-accent-blue transition-colors focus:outline-none"
             >
-              <FiMail className="h-6 w-6" />
-            </a>
+              {showCopied ? (
+                <FiCheck className="h-6 w-6 text-green-500" />
+              ) : (
+                <FiMail className="h-6 w-6" />
+              )}
+            </button>
           </div>
         </div>
       </motion.div>
