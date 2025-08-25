@@ -67,7 +67,7 @@ export default function Navbar() {
             >
               <FaGithub className="h-5 w-5" />
             </a>
-            <div className="relative">
+            <div className="relative group">
               <button
                 onClick={handleCopyEmail}
                 className="text-gray-300 hover:text-accent-blue transition-colors focus:outline-none"
@@ -78,10 +78,18 @@ export default function Navbar() {
                   <FiMail className="h-5 w-5" />
                 )}
               </button>
-              <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-10 w-32 flex justify-center">
-                <span className="px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                  {showCopied ? 'Copied!' : 'Click to copy email'}
-                </span>
+              <div className="absolute left-1/2 -translate-x-1/2 -bottom-16 hidden group-hover:block">
+                <div className="bg-gray-900 text-white text-xs rounded px-3 py-2 text-center">
+                  {showCopied ? (
+                    'Copied!'
+                  ) : (
+                    <>
+                      Click to copy
+                      <br />
+                      email
+                    </>
+                  )}
+                </div>
               </div>
             </div>
           </div>
