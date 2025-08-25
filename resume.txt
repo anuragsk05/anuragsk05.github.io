@@ -1,0 +1,130 @@
+Software Roles
+
+Ask Sai Vidya – Software Engineer (06/2025 – Present)
+	•	Shipped chat-saving and account features using Auth0 and MongoDB, increasing account creation by 40%.
+	•	Designed sidebar UI for seamless navigation of OpenAI-powered discourse suggestions on Flask backend, boosting engagement by 15%.
+	•	Contributed to core UI components, improving usability and clarity in discourse browser and user profile.
+	•	Co-led product pitch to Sathya Sai International Organization’s USA national team, securing crucial resources.
+
+Miracle Software Systems – Software Engineer Intern (05/2025 – 08/2025)
+	•	Developed conversational AI assistant utilizing Gemini’s API, enhancing client navigation and engagement by 20%.
+	•	Designed and implemented a Retrieval-Augmented Generation (RAG) system on Google Cloud (BigQuery, Cloud Run).
+	•	Contributed to full-stack projects using FastAPI, Gemini, and SQLite.
+	•	Deployed cloud services and managed API integrations, ensuring up-to-date cloud capabilities.
+
+⸻
+
+Other Roles
+
+Troy School District – Troy, MI – Student Producer (11/2021 – 07/2023)
+	•	Produced content for $550M bond proposal, including campaign videos and school photography.
+	•	Filmed/edited 5 district events and photographed 11 events.
+	•	Produced 2 student music albums and edited 3 audio/visual ensemble recordings.
+	•	Managed live theatre event audio engineering and video streaming.
+
+Claim – Ann Arbor, MI – Student Growth Ambassador (08/2024 – 12/2024)
+	•	Introduced app features to students at UMich.
+	•	Represented Claim at events, distributing promotional materials to boost onboarding.
+	•	Partnered with student orgs to establish fundraising collaborations.
+
+No Fear Cafe – Detroit, MI – STEM Camp Counselor (06/2024 – 08/2024)
+	•	Taught STEM concepts through hands-on activities (wind models, excavation, Lego design).
+	•	Held artistic workshops (color mixing, origami).
+	•	Adapted lessons to handle behavioral issues, supply shortages, and schedule changes.
+
+⸻
+
+Technical Projects
+
+Instagram Clone (2024)
+	•	Full-stack app with Flask backend and React UI.
+	•	Optimized SQL database queries and API calls.
+	•	Implemented infinite scroll, likes, and comments.
+	•	Deployed on AWS.
+
+YouTube Summarization Tool – Live App (2024)
+	•	Built with Gemini multimodal models and Flask backend.
+	•	Supported customizable prompting for summaries.
+	•	Deployed on Google Cloud (Cloud Run).
+
+Piazza Post Classifier (2023)
+	•	Built Naïve Bayes classifier in C++.
+	•	Parsed CSV training data using file streams.
+	•	Used maps, sets, vectors for efficient probability storage.
+	•	Implemented auto-evaluation comparing predicted vs. actual labels.
+
+⸻
+
+Activities
+
+College
+
+Sri Sathya Sai International Organization – Youth Campus Liaison (2024 – Present), Regional Media Team (2020 – Present), Student Council Lead (2020 – 2023)
+	•	Organized service projects (e-waste drives, tree planting, charity initiatives).
+	•	Coordinated in-person/virtual camps across the Midwest.
+	•	Hosted regional music events and performances.
+
+Michigan Sahana – Ann Arbor, MI – Music Chair (01/2020 – 05/2023)
+	•	Coordinated music programs, mentored musicians, performed quality checks.
+	•	Introduced new repertoire segment including folk, devotional, and Persian styles.
+
+Shift | Creator Space – Ann Arbor, MI – Mentee (2025 – Present)
+	•	Showcased original pop song with research-based elements.
+	•	Participated in team gatherings, workshops, and collaborations.
+
+Other UMich Activities (2023 – Present)
+	•	Campus Philharmonia Orchestra
+	•	Campus Jazz Ensemble
+	•	M-agination Films
+
+⸻
+
+High School
+
+Troy High School – Troy, MI (2019 – 2023)
+	•	Film Club – Vice-President
+	•	FIRST Robotics – Digital Media Chair & Emcee
+	•	Troy Theatre Ensemble – Member
+	•	A Cappella Club – Member
+
+⸻
+
+Education
+
+University of Michigan – Ann Arbor, MI (2023 – 2027)
+Bachelor of Science in Computer Science
+Minor: Music and Entrepreneurship
+GPA: 3.4
+Relevant Coursework: Data Structures & Algorithms, Web Systems, Discrete Math, Computer Science Pragmatics, UI/UX Design, Database Management Systems, Economics (ECON 101), Business of Music (PAT 472)
+Extracurriculars: Michigan Sahana (Music Chair), Shift Creator Space, Campus Philharmonia Orchestra, M-agination Films, Campus Jazz Ensemble
+
+Troy High School – Troy, MI (2019 – 2023)
+High School Diploma, GPA: 4.2/4.0
+Activities: Film Club (Vice-President), FIRST Robotics (Digital Media Chair, Emcee), Troy Theatre Ensemble, A Cappella Club
+
+⸻
+
+Skills (Categorized)
+
+Programming Languages
+	•	Python, C++, C, JavaScript, SQL, HTML
+
+Frameworks & Web Development
+	•	Flask, ReactJS, REST APIs, Jinja2
+
+Databases & Cloud
+	•	MongoDB, SQLite, SQL, AWS, Google Cloud (BigQuery, Cloud Run)
+
+AI/ML
+	•	OpenAI API, Gemini API, RAG Architectures, Google ADK
+
+Multimedia & Creative
+	•	Filmmaking, Photography, Audio/Video Editing, Music Production & Recording
+
+Business & Communication
+	•	Marketing & Outreach, Content Creation, Public Speaking, Consumer Behavior Analysis
+
+Leadership & Problem-Solving
+	•	Event Management, Team Leadership, Mentorship, Strategic Problem-Solving, Task Delegation
+
+⸻

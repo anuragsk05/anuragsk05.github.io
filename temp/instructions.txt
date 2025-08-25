@@ -1,0 +1,8 @@
+I want to build a personal website. Code the entire thing. I have provided my resume as a basis.
+
+I want three sections
+
+- Home
+- About Me (Github link (anuragsk05), linkedin (@https://www.linkedin.com/in/anurag-komaragiri/)
+- Work Experience
+- Projects
