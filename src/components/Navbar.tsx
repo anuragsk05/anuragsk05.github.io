@@ -67,19 +67,23 @@ export default function Navbar() {
             >
               <FaGithub className="h-5 w-5" />
             </a>
-            <button
-              onClick={handleCopyEmail}
-              className="relative group text-gray-300 hover:text-accent-blue transition-colors focus:outline-none"
-            >
-              {showCopied ? (
-                <FiCheck className="h-5 w-5 text-green-500" />
-              ) : (
-                <FiMail className="h-5 w-5" />
-              )}
-              <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                {showCopied ? 'Copied!' : 'Click to copy email'}
-              </span>
-            </button>
+            <div className="relative">
+              <button
+                onClick={handleCopyEmail}
+                className="text-gray-300 hover:text-accent-blue transition-colors focus:outline-none"
+              >
+                {showCopied ? (
+                  <FiCheck className="h-5 w-5 text-green-500" />
+                ) : (
+                  <FiMail className="h-5 w-5" />
+                )}
+              </button>
+              <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-10 w-32 flex justify-center">
+                <span className="px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                  {showCopied ? 'Copied!' : 'Click to copy email'}
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
