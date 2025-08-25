@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -57,6 +58,12 @@ export default function Navbar() {
               className="text-gray-300 hover:text-accent-purple transition-colors"
             >
               <FaGithub className="h-5 w-5" />
+            </a>
+            <a
+              href="mailto:anurag.s.kom@gmail.com"
+              className="text-gray-300 hover:text-accent-blue transition-colors"
+            >
+              <FiMail className="h-5 w-5" />
             </a>
           </div>
 
@@ -148,6 +155,12 @@ export default function Navbar() {
               className="text-gray-300 hover:text-accent-purple transition-colors"
             >
               <FaGithub className="h-6 w-6" />
+            </a>
+            <a
+              href="mailto:anurag.s.kom@gmail.com"
+              className="text-gray-300 hover:text-accent-blue transition-colors"
+            >
+              <FiMail className="h-6 w-6" />
             </a>
           </div>
         </div>
