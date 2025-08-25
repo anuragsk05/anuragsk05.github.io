@@ -8,6 +8,9 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Anurag Komaragiri',
   description: 'Software Engineer • Musician • Creator',
+  icons: {
+    icon: '/favicon-32x32.png',
+  },
 };
 
 export default function RootLayout({
